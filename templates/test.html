@@ -1,0 +1,17 @@
+{% extends "layout.html" %}
+
+{% block title %}Logged In - {% endblock %}
+
+{% block header %}Result{% endblock %}
+
+{% block content %}
+<div>
+    <a href="/">Main page</a> <br> <br>
+
+    <form name="search" action="/playlists" method="get">
+    Enter song name: <input type="text" name="name">
+    <input type="submit" value="Search playlists">
+    </form> 
+
+</div>
+{% endblock %}
