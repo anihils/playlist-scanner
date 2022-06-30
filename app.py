@@ -10,8 +10,8 @@ AUTH_URL = 'https://accounts.spotify.com/authorize?'
 TOKEN_URL = 'https://accounts.spotify.com/api/token/'
 BASE_URL = 'https://api.spotify.com/v1/'
 
-CLIENT_ID = 'a6fe6798224848ab9c89445188c7e91b' # client id
-CLIENT_SECRET = 'df4448d07ebf406b97fc172f97b946ca' # secret
+CLIENT_ID = '' # client id
+CLIENT_SECRET = '' # secret
 REDIRECT_URI = 'http://localhost:5000/callback/' # redirect uri
 
 def generateState():
